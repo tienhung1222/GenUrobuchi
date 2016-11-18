@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Unity Saber" company="" webLink="http://" view-date="2016-01-01" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.8.1" locale="en_US">
+    <description/>
+    <view zooming-state="default:11" id="gantt-chart">
+        <field id="tpd3" name="Name" width="186" order="0"/>
+        <field id="tpd4" name="Begin date" width="74" order="1"/>
+        <field id="tpd5" name="End date" width="74" order="2"/>
+        <option id="color.recent"><![CDATA[#333333 #f4f4f4 #339900 #6699ff #cc0066]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2016" month="12" date="12" type="HOLIDAY"><![CDATA[Holiday on 12/12/16 12:00 AM]]></date>
+        <date year="2017" month="5" date="31" type="HOLIDAY"><![CDATA[Holiday on 5/31/17 12:00 AM]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="14" name="Have an idea" color="#8cb6ce" meeting="false" start="2016-09-12" duration="1" complete="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="Expanding ideas" color="#8cb6ce" meeting="false" start="2016-09-13" duration="1" complete="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" name="PREPARATIONS" meeting="false" start="2016-09-14" duration="6" complete="0" expand="true">
+            <task id="84" name="Finding characters" meeting="false" start="2016-09-14" duration="1" complete="0" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="85" name="Finding items" meeting="false" start="2016-09-15" duration="1" complete="0" expand="true">
+                <depend id="86" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="86" name="Imagine the island" meeting="false" start="2016-09-16" duration="1" complete="0" expand="true"/>
+            <task id="87" name="TERRAIN" meeting="false" start="2016-09-14" duration="6" complete="0" expand="true">
+                <task id="92" name="Dig a lake" meeting="false" start="2016-09-14" duration="2" complete="0" expand="true"/>
+                <task id="93" name="Add trees and grass" meeting="false" start="2016-09-14" duration="2" complete="0" expand="true"/>
+                <task id="96" name="Add pro water" color="#8cb6ce" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" start="2016-09-15" duration="2" complete="0" priority="3" expand="true"/>
+                <task id="95" name="First Person Demo background" color="#8cb6ce" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="false" start="2016-09-15" duration="2" complete="0" priority="4" expand="true"/>
+                <task id="97" name="Fix minor problem" color="#8cb6ce" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="false" start="2016-09-16" duration="4" complete="0" priority="4" expand="true"/>
+            </task>
+        </task>
+        <task id="3" name="CHARACTERS" color="#333333" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" start="2016-09-20" duration="89" complete="0" priority="3" expand="true"/>
+        <task id="101" name="Downloading characters" meeting="false" start="2016-09-20" duration="2" complete="0" expand="true">
+            <depend id="102" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="102" name="Watch youtube for third person controller" meeting="false" start="2016-09-22" duration="2" complete="0" expand="true">
+            <depend id="103" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="103" name="working on script" meeting="false" start="2016-09-26" duration="8" complete="0" expand="true">
+            <depend id="110" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="110" name="Add effect" meeting="false" start="2016-10-06" duration="3" complete="0" expand="true">
+            <depend id="107" type="2" difference="0" hardness="Strong"/>
+            <depend id="111" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="111" name="Demo character basic movement" meeting="false" start="2016-10-11" duration="2" complete="0" expand="true">
+            <depend id="107" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="107" name="Fix minor problems" meeting="false" start="2016-10-13" duration="4" complete="0" expand="true">
+            <depend id="112" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="112" name="Working on the animation" color="#8cb6ce" meeting="false" start="2016-10-19" duration="11" complete="0" expand="true">
+            <depend id="113" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="113" name="Attack animation" meeting="false" start="2016-11-03" duration="5" complete="0" expand="true">
+            <depend id="114" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="114" name="Death animation" meeting="false" start="2016-11-10" duration="6" complete="0" expand="true">
+            <depend id="115" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="115" name="Working on script" meeting="false" start="2016-11-18" duration="16" complete="0" expand="true"/>
+        <task id="116" name="SOUND" color="#333333" meeting="false" start="2016-12-13" duration="31" complete="0" expand="true"/>
+        <task id="127" name="Movement" color="#8cb6ce" meeting="false" start="2016-12-13" duration="6" complete="0" expand="true">
+            <depend id="128" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="128" name="Fighting sountracks" color="#8cb6ce" meeting="false" start="2016-12-21" duration="7" complete="0" expand="true">
+            <depend id="129" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="129" name="Sad soundtracks" meeting="false" start="2016-12-30" duration="3" complete="0" expand="true">
+            <depend id="130" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="130" name="Theme song" meeting="false" start="2017-01-04" duration="3" complete="0" expand="true">
+            <depend id="131" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="131" name="Ending song" meeting="false" start="2017-01-09" duration="2" complete="0" expand="true">
+            <depend id="132" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="132" name="Weapon sound" meeting="false" start="2017-01-11" duration="2" complete="0" expand="true">
+            <depend id="133" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="133" name="Effect sound" meeting="false" start="2017-01-13" duration="2" complete="0" expand="true">
+            <depend id="134" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="134" name="Demo Test Sound" meeting="false" start="2017-01-17" duration="2" complete="0" expand="true">
+            <depend id="136" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="136" name="Fix minor problems" meeting="false" start="2017-01-19" duration="4" complete="0" expand="true"/>
+        <task id="231" name="PLOT" color="#333333" meeting="false" start="2017-01-24" duration="70" complete="0" expand="true"/>
+        <task id="228" name="Reading books to get ideas" meeting="false" start="2017-01-24" duration="17" complete="0" expand="true">
+            <depend id="229" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="229" name="Expect to finish all the books and start playing RPG game to get ideas" meeting="false" start="2017-02-16" duration="10" complete="0" expand="true">
+            <depend id="230" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="230" name="Writing plot" meeting="false" start="2017-03-02" duration="18" complete="0" expand="true">
+            <depend id="238" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="239" name="Intro" meeting="false" start="2017-03-02" duration="6" complete="0" expand="true">
+            <depend id="253" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="253" name="Mid-game" meeting="false" start="2017-03-10" duration="6" complete="0" expand="true">
+            <depend id="236" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="236" name="Final" meeting="false" start="2017-03-20" duration="6" complete="0" expand="true">
+            <depend id="238" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="238" name="Read and check through" meeting="false" start="2017-03-28" duration="6" complete="0" expand="true">
+            <depend id="256" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="256" name="Bring plot to the game" meeting="false" start="2017-04-05" duration="16" complete="0" expand="true">
+            <depend id="258" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="258" name="First Beta Test" meeting="false" start="2017-04-27" duration="3" complete="0" expand="true">
+            <depend id="263" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="263" name="Interview Beta testers" meeting="false" start="2017-05-02" duration="4" complete="0" expand="true">
+            <depend id="264" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="264" name="Collectig their ideas" meeting="false" start="2017-05-08" duration="1" complete="0" expand="true"/>
+        <task id="265" name="MARKETING" color="#333333" meeting="false" start="2017-05-10" duration="48" complete="0" expand="true"/>
+        <task id="279" name="Design poster" meeting="false" start="2017-05-11" duration="11" complete="0" expand="true"/>
+        <task id="280" name="Find help from the pros" meeting="false" start="2017-05-25" duration="4" complete="0" expand="true"/>
+        <task id="282" name="Prepare for the speec with the company" meeting="false" start="2017-06-01" duration="22" complete="0" expand="true"/>
+        <task id="281" name="Have an interview with them" meeting="false" start="2017-07-04" duration="1" complete="0" expand="true"/>
+        <task id="283" name="SIGN CONTRACT" meeting="false" start="2017-07-04" duration="1" complete="0" expand="true"/>
+        <task id="289" name="Conditions : they help advertising and release. Profit is divided in half" meeting="false" start="2017-07-04" duration="1" complete="0" expand="true"/>
+        <task id="290" name="Get idea to make a trailer" meeting="false" start="2017-07-05" duration="8" complete="0" expand="true"/>
+        <task id="292" name="OFFICIAL TRAILER" meeting="false" start="2017-07-17" duration="1" complete="0" expand="true"/>
+        <task id="293" name="Working on updates with the team" meeting="false" start="2017-07-21" duration="110" complete="0" expand="true"/>
+        <task id="296" name="BETA TEST 2" meeting="false" start="2018-01-02" duration="1" complete="0" expand="true"/>
+        <task id="301" name="OFFICIAL TRailer 2" meeting="false" start="2018-02-22" duration="1" complete="0" expand="true"/>
+        <task id="307" name="RELEASE" color="#333333" meeting="false" start="2018-03-15" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
